@@ -1,89 +1,76 @@
-html, body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  font-weight: 300;
-  line-height: 1.5;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Report</title>
+  <meta charset="utf-8" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 
-body {
-  font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
-  background-position: center top;
-  background-size: cover;
-  margin: 0;
-}
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
 
-a {
-  color: #204156;
-  text-decoration: none;
-}
+<body>
+  <header class="container">
+    <div class="row">
+      <h1 class="col-sm-8">My Report</h1>
+      <nav class="col-sm-4">
+        <p>Introduction</p>
+        <p>Main</p>
+        <p>Conclusion</p>
+      </nav>
+    </div>
+  </header>
+  <section class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <h2>PSSD2 Individual Report</h2>
+        <h3>Thomas Wall</h3>
+        <a class="btn btn-primary" href="#">See all</a>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <p>kitchen</p>
+        <img src="http://www.gwendagilligan.com.au/wp-content/uploads/2013/12/services-report-writing.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>woodwork</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>gifts</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>antiques</p>
+        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg">
+      </div>
+    </div>
+    <div class="row text-center">
+      <a class="btn btn-secondary" href="#">View References</a>
+    </div>
+  </section>
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2016 T Wall</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
+        </li>
+        <li class="col-sm-1">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
 
-.page-title {
-  text-align: center;
-  font-weight: 100;
-}
-
-.page-description {
-  border: 1px solid #000;
-  margin: 2px;
-  text-align: center;
-  padding: 30px;
-}
-
-.gallery {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; 
-}
-
-.gallery-item {
-  margin: 20px;
-}
-
-.gallery-item .thumbnail {
-  border: 5px solid #fff;
-}
-
-/* FOOTER NAVIGATION */
-
-nav {
-  background-color: #FFF;
-}
-
-nav li {
-  display: inline;
-  margin: 0;
-  padding: 0 10px;
-}
-
-nav ul {
-  display: inline;
-}
-
-.contact-btn {
-  float: right;
-}
-
-.contact-btn a {
-  cursor: pointer;
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-  position: relative;
-
-}
-
-.contact-btn a:active {
-top: 2px;
-}
-
-nav a {
-  height: 60px;
-  line-height: 60px;
-  color: #204156;
-  text-decoration: none;
-}
-
-
+</html>
